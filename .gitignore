@@ -1,0 +1,13 @@
+node_modules_linux
+/node_modules
+node_modules
+
+# production
+/build
+
+# misc
+.env
+# idt
+.ibm-project
+
+# post npm install
