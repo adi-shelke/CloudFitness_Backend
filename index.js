@@ -5,7 +5,7 @@ connectDb()
 const app = express()
 const port = 3002
 app.use(express.json())  // to use req.body
-
+app.use(cors())
 //Initializing the express
 
 app.get('/', (req, res) => {
