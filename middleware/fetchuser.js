@@ -11,7 +11,7 @@ const fetchuser=(req,res,next)=>{
         req.user=data.user
         next()
     } catch (error) {
-        res.status(401).send("Please authenticate")
+        res.status(401).json({error:"Please authenticate"})
     }
 }
 module.exports=fetchuser
