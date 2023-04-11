@@ -1,5 +1,6 @@
 const connectDb = require("./db")
 const express = require('express')
+var cors = require('cors')
 connectDb()
 
 const app = express()
